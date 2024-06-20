@@ -1,0 +1,9 @@
+Sort 2D array
+-------------
+Arrays.sort(arr, (a, b) -> {
+            if (a[0] != b[0]) {
+                return Integer.compare(a[0], b[0]);
+            } else {
+                return Integer.compare(a[1], b[1]);
+            }
+         });
