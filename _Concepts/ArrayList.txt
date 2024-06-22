@@ -1,6 +1,0 @@
-C1
-----
-Convert Arraylist of Objects to array
-e.g. Arraylist of integer array
-ArrayList<int[]> al = new ArrayList<>();
-al.toArray(int[][] :: new);
