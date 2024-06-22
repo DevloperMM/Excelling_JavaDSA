@@ -23,11 +23,13 @@ public class $1_matrix_and_search {
         
         @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the elements of the 2D array ");
+        System.out.println("Enter the elements of the 2D array");
         for (int i=0; i<n; i++) {
+            System.out.print("Enter"+(i+1)+"Row elements ");
             for (int j=0; j<m; j++) {
                 matrix[i][j] = sc.nextInt();
             }
+            System.out.println();
         }
 
         //output
